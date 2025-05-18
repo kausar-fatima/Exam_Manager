@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="views\AdmnViews\AddStudentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\BatchManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\CoursesManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\EditCourseWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\EditRoomWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\EditSectionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\EditSessionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\EditStudentWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\RoomManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\SectionsManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\SessionsManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\AdmnViews\StudentsManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\ClerkViews\PreviewWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\ClerkViews\ScheduleManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\DashboardWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\SuperAdmnViews\EditRoleWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\SuperAdmnViews\EditUserWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\SignupWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\SuperAdmnViews\RolesManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\SuperAdmnViews\UserManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="views\WelcomePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

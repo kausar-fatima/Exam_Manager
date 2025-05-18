@@ -1,0 +1,97 @@
+﻿<Window x:Class="ExamManagementSystem.views.AdmnViews.EditSessionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamManagementSystem.views.AdmnViews"
+        mc:Ignorable="d"
+        Title="EditSessionWindow"
+        Height="415"
+        Width="420"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="#1C1F26">
+    <Window.Resources>
+        <!-- Theme Colors -->
+        <SolidColorBrush x:Key="PrimaryColor" Color="#001f3f"/>
+        <SolidColorBrush x:Key="AccentColor" Color="#0074D9"/>
+        <SolidColorBrush x:Key="BackgroundColor" Color="#1C1F26"/>
+        <SolidColorBrush x:Key="TextColor" Color="#ECECEC"/>
+        <SolidColorBrush x:Key="FieldBackground" Color="#2C2F36"/>
+        <SolidColorBrush x:Key="BorderColor" Color="#444"/>
+
+        <!-- Shared Control Styles -->
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="{StaticResource TextColor}"/>
+            <Setter Property="Background" Value="{StaticResource FieldBackground}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BorderColor}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="20,0,20,10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="6">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource AccentColor}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="20,20,20,0"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" CornerRadius="20">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </Window.Resources>
+
+    <!-- Layout -->
+    <Grid Margin="0,40,0,0">
+       
+        <StackPanel VerticalAlignment="Top" Grid.ColumnSpan="2" Height="360" Margin="0,-17,0,0">
+
+            <!-- Title -->
+            <TextBlock Text="Edit Session" FontSize="22" FontWeight="Bold"
+                   Foreground="{StaticResource AccentColor}" HorizontalAlignment="Center" Margin="0,0,0,30"/>
+
+            <TextBlock Text="SessionName" FontWeight="SemiBold" Foreground="{StaticResource TextColor}" Margin="20,0,0,5"/>
+            <TextBox x:Name="SessionTextBox" Height="35"/>
+
+            <TextBlock Text="Start Date" FontWeight="SemiBold" Foreground="{StaticResource TextColor}" Margin="20,10,0,5"/>
+            <DatePicker x:Name="StartDatePicker" Height="35"
+            Background="{StaticResource FieldBackground}"
+            Foreground="{StaticResource FieldBackground}"
+            BorderBrush="{StaticResource BorderColor}"
+            BorderThickness="1"
+            Margin="20,0,20,10"
+            SelectedDateFormat="Short"/>
+
+            <TextBlock Text="End Date" FontWeight="SemiBold" Foreground="{StaticResource TextColor}" Margin="20,10,0,5"/>
+            <DatePicker x:Name="EndDatePicker" Height="35"
+            Background="{StaticResource FieldBackground}"
+            Foreground="{StaticResource FieldBackground}"
+            BorderBrush="{StaticResource BorderColor}"
+            BorderThickness="1"
+            Margin="20,0,20,10"
+            SelectedDateFormat="Short"/>
+
+
+            <Button Content="Update Session" Click="UpdateSession_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

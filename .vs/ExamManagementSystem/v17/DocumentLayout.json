@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\clerkviews\\schedulemanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\clerkviews\\schedulemanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\admnviews\\addstudentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\admnviews\\addstudentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\clerkviews\\schedulemanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\clerkviews\\schedulemanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\clerkviews\\previewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\clerkviews\\previewwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\admnviews\\editsessionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\admnviews\\editsessionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\admnviews\\editsectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\admnviews\\editsectionwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\admnviews\\editroomwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\admnviews\\editroomwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\admnviews\\editcoursewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\admnviews\\editcoursewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\superadmnviews\\edituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\superadmnviews\\edituserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\superadmnviews\\editrolewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\superadmnviews\\editrolewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|c:\\users\\pmls\\source\\repos\\exammanagementsystem\\exammanagementsystem\\views\\dashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{19B8918B-9797-4127-AA8F-580296D129F2}|ExamManagementSystem\\ExamManagementSystem.csproj|solutionrelative:exammanagementsystem\\views\\dashboardwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScheduleManager.xaml",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\ClerkViews\\ScheduleManager.xaml",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\ClerkViews\\ScheduleManager.xaml",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\ClerkViews\\ScheduleManager.xaml",
+              "RelativeToolTip": "ExamManagementSystem\\views\\ClerkViews\\ScheduleManager.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-09T06:58:27.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddStudentWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\AdmnViews\\AddStudentWindow.xaml",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\AdmnViews\\AddStudentWindow.xaml",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\AdmnViews\\AddStudentWindow.xaml",
+              "RelativeToolTip": "ExamManagementSystem\\views\\AdmnViews\\AddStudentWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T03:33:03.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PreviewWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\ClerkViews\\PreviewWindow.xaml",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\ClerkViews\\PreviewWindow.xaml",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\ClerkViews\\PreviewWindow.xaml",
+              "RelativeToolTip": "ExamManagementSystem\\views\\ClerkViews\\PreviewWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T03:43:13.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ExamManagementSystem\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:12:40.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScheduleManager.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\ClerkViews\\ScheduleManager.xaml.cs",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\ClerkViews\\ScheduleManager.xaml.cs",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\ClerkViews\\ScheduleManager.xaml.cs",
+              "RelativeToolTip": "ExamManagementSystem\\views\\ClerkViews\\ScheduleManager.xaml.cs",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAAwO4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:43:28.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditSessionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\AdmnViews\\EditSessionWindow.xaml",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\AdmnViews\\EditSessionWindow.xaml",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\AdmnViews\\EditSessionWindow.xaml",
+              "RelativeToolTip": "ExamManagementSystem\\views\\AdmnViews\\EditSessionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T03:41:16.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditSectionWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\AdmnViews\\EditSectionWindow.xaml",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\AdmnViews\\EditSectionWindow.xaml",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\AdmnViews\\EditSectionWindow.xaml",
+              "RelativeToolTip": "ExamManagementSystem\\views\\AdmnViews\\EditSectionWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T03:40:49.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditRoomWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\AdmnViews\\EditRoomWindow.xaml",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\AdmnViews\\EditRoomWindow.xaml",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\AdmnViews\\EditRoomWindow.xaml",
+              "RelativeToolTip": "ExamManagementSystem\\views\\AdmnViews\\EditRoomWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T03:40:23.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EditCourseWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\AdmnViews\\EditCourseWindow.xaml",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\AdmnViews\\EditCourseWindow.xaml",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\AdmnViews\\EditCourseWindow.xaml",
+              "RelativeToolTip": "ExamManagementSystem\\views\\AdmnViews\\EditCourseWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T03:33:17.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditRoleWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\SuperAdmnViews\\EditRoleWindow.xaml",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\SuperAdmnViews\\EditRoleWindow.xaml",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\SuperAdmnViews\\EditRoleWindow.xaml",
+              "RelativeToolTip": "ExamManagementSystem\\views\\SuperAdmnViews\\EditRoleWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T03:31:44.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditUserWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\SuperAdmnViews\\EditUserWindow.xaml",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\SuperAdmnViews\\EditUserWindow.xaml",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\SuperAdmnViews\\EditUserWindow.xaml",
+              "RelativeToolTip": "ExamManagementSystem\\views\\SuperAdmnViews\\EditUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T08:58:16.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DashboardWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\DashboardWindow.xaml",
+              "RelativeDocumentMoniker": "ExamManagementSystem\\views\\DashboardWindow.xaml",
+              "ToolTip": "C:\\Users\\PMLS\\source\\repos\\ExamManagementSystem\\ExamManagementSystem\\views\\DashboardWindow.xaml",
+              "RelativeToolTip": "ExamManagementSystem\\views\\DashboardWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T08:52:59.892Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

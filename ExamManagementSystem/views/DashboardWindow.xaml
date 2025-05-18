@@ -1,0 +1,98 @@
+﻿<Window x:Class="ExamManagementSystem.views.DashboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamManagementSystem.views"
+        mc:Ignorable="d"
+        Title="Dashboard" Height="640" Width="1090"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="#1C1F26">
+
+    <Window.Resources>
+        <!-- Reuse from SignupWindow -->
+        <SolidColorBrush x:Key="PrimaryColor" Color="#001f3f"/>
+        <SolidColorBrush x:Key="AccentColor" Color="#0074D9"/>
+        <SolidColorBrush x:Key="BackgroundColor" Color="#1C1F26"/>
+        <SolidColorBrush x:Key="TextColor" Color="#ECECEC"/>
+        <SolidColorBrush x:Key="FieldBackground" Color="#2C2F36"/>
+        <SolidColorBrush x:Key="BorderColor" Color="#444"/>
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True">
+        <!-- Top Header -->
+        <Grid DockPanel.Dock="Top" Height="90" Background="{StaticResource FieldBackground}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <!--<ColumnDefinition Width="*"/>-->
+            </Grid.ColumnDefinitions>
+
+            <!-- Logo -->
+            <Image Source="/Images/exam1.png" Height="70" Margin="53,0,972,0" VerticalAlignment="Center"/>
+
+            <!-- Welcome Text -->
+            <TextBlock x:Name="WelcomeTextBlock"
+                   Grid.Column="1"
+                   TextAlignment="Center"
+                   VerticalAlignment="Center"
+                   Foreground="White"
+                   FontSize="18"
+                   FontWeight="Bold" Margin="192,0,0,0"/>
+        </Grid>
+
+        <!-- Left Sidebar -->
+        <DockPanel DockPanel.Dock="Left" Width="190" Background="{StaticResource FieldBackground}">
+
+            <!-- Top Menu Options -->
+            <StackPanel DockPanel.Dock="Top">
+                <!-- Role-based panels shown based on SetupDashboard -->
+                <StackPanel x:Name="SuperAdminPanel" Visibility="Collapsed">
+                    <Button Content="Manage Users" Tag="UsersPage" Click="Menu_Click"/>
+                    <Button Content="Manage Roles" Tag="RolesPage" Click="Menu_Click"/>
+                </StackPanel>
+
+                <StackPanel x:Name="AdminPanel" Visibility="Collapsed">
+                    <Button Content="Batchs Management" Tag="BatchsPage" Click="Menu_Click"/>
+                    <Button Content="Rooms Management" Tag="RoomsPage" Click="Menu_Click"/>
+                </StackPanel>
+
+                <StackPanel x:Name="ClerkPanel" Visibility="Collapsed">
+                    <Button Content="Generate Schedule Plans" Tag="SchedulePlansPage" Click="Menu_Click"/>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- Logout button at bottom -->
+            <Button Content="Logout"
+            DockPanel.Dock="Bottom"
+            Background="{StaticResource AccentColor}"
+            VerticalAlignment="Bottom"
+            Click="LogoutButton_Click"/>
+        </DockPanel>
+
+
+        <!-- Main display area -->
+        <Frame x:Name="MainContentFrame" NavigationUIVisibility="Hidden"/>
+    </DockPanel>
+
+
+</Window>
